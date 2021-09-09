@@ -8,7 +8,6 @@
       title="Referencebehavior setup"
       description=""
       handler="plone.app.referenceablebehavior.setuphandlers.setup_referenceablebehavior">
-      <depends name="toolset"/>
   </genericsetup:importStep>
 
   <genericsetup:registerProfile

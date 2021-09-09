@@ -41,13 +41,13 @@ setup(
         'plone.dexterity >= 1.1',
         'plone.indexer',
         'plone.uuid',
-        'Products.Archetypes',
     ],
     extras_require={
       'test': ['Products.CMFPlone',
                'Products.Archetypes',
                'plone.app.testing',
                'plone.app.dexterity'],
+      'archetypes': ['Products.Archetypes'],
     },
     entry_points="""
     # -*- Entry points: -*-
